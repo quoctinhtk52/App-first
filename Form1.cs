@@ -28,7 +28,9 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+            int c = a + b;
         }
     }
 }
