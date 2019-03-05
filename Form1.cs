@@ -28,9 +28,15 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             int a = int.Parse(textBox1.Text);
             int b = int.Parse(textBox2.Text);
             int c = a + b;
+=======
+            int so1 = int.Parse(textBox1.Text);
+            int so2 = int.Parse(textBox2.Text);
+            int d = so1 + so2;
+>>>>>>> feature-cal
         }
     }
 }
